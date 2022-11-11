@@ -21,5 +21,10 @@
     "modulePathIgnorePatterns": [
       "package.json"
     ]
+  },
+   "scripts": {
+    "test": "jest --no-cache ./*",
+    "watch": "jest --nocache --watch ./*",
+    "lint": "eslint ."
   }
 }

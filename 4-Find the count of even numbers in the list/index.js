@@ -1,5 +1,11 @@
 export const func = (list) => {
-// Write your program only between these lines
+let counter = 0
+for (let i=0; i<list.length;i++){
+    if(list[i]%2===0){
+   counter++
+    }
 
-// Write your program only between these lines
+} 
+  return counter
 };
+console.log(func([0,3,7,3,2,4]))
